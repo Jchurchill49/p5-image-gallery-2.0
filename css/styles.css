@@ -27,16 +27,19 @@ h3{
     width:3%;
 }
 
-a{
+h3 a{
     text-decoration: none;
-    color: #1883ba;
+    color: white;
+    font-size: .75em;
 }
 
 header{
     background-image: url(../img/sunset.png);
   }
 
-
+p{
+    font-size: .75em;
+}
 .large-6,
 .large-3 {
 	-moz-transition: width .25s .5s;

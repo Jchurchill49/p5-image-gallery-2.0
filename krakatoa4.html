@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<link rel="stylesheet" href="theme/style.css" />
+
+ <script src="js/vendor/modernizr.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+
+ <nav class="row">
+      <div class="columns large-12">
+
+            <h2>Beautiful Places</h2>
+
+      </div>
+</nav>
+
+	<div class="krakatoa" data-settings="{ items : 1, autoplay : false, loop : true }">
+		         <img src="img/tree2.png" class="grid"alt="Detail Image"><p>trees</p>
+            <img src="img/tree1.png" class="grid"alt="Detail Image">
+            <img src="img/olive.png" class="grid"alt="Detail Image">
+            <img src="img/sherman.png" class="grid"alt="Detail Image">
+	</div>
+
+
+
+  
+
+
+	
+      <div class="krakatoa" data-settings="{ items : 10, autoplay : false, loop : true }">
+                <a href="#first"><img src="img/tree2.png" class="thumb"alt="Detail Image"></a>
+            <a href="#second"><img src="img/tree1.png" class="thumb"alt="Detail Image"></a>
+            <a href="#third"><img src="img/olive.png" class="thumb"alt="Detail Image"></a>
+            <a href="#fouth"><img src="img/sherman.png" class="thumb"alt="Detail Image"></a>
+            <img src="img/cityoncliff.png" class="thumb"alt="Detail Image">
+            <img src="img/winter.png" class="thumb"alt="Detail Image">
+            <img src="img/trees.jpg"class="thumb" alt="Detail Image">
+      
+      </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="js/photogrid.js"></script> 
+<script src="js/jquery.krakatoa.js"></script>
+ <script src="js/scripts.js"></script>
+
+<script>
+	$(window).on('load',function(){
+		$('.krakatoa').krakatoa( { width: '800px', height: '500px', autoplay: false });
+	});
+</script>
+
+</body>
+</html>
