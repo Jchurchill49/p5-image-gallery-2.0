@@ -8,7 +8,8 @@ p{
     color:white;
 }
 
-h3{
+h3,
+h2{
    color:white;
 }
 .th img{
@@ -27,6 +28,7 @@ h3{
     width:3%;
 }
 
+
 h3 a{
     text-decoration: none;
     color: white;
@@ -37,9 +39,19 @@ header{
     background-image: url(../img/sunset.png);
   }
 
+header a{
+    color:black;
+}
+
 p{
     font-size: .75em;
+    color:white;
 }
+
+.intro{
+    margin:2%;
+}
+
 .large-6,
 .large-3 {
 	-moz-transition: width .25s .5s;
